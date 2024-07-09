@@ -1,0 +1,33 @@
+.item-name{
+    color: black;
+    background-color: bisque;
+    width: fit-content;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.item-description{
+    color: black;
+    background-color: bisque;
+    width: fit-content;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.carousel-indicators{
+    background-color: grey;
+    opacity: 0.3;   
+    border-radius: 5px;
+}
+
+.carousel-control-prev{
+    background-color: grey;
+    opacity: 0.3;
+    width: 8%;
+}
+
+.carousel-control-next{
+    background-color: grey;
+    opacity: 0.3;
+    width: 8%;
+}
