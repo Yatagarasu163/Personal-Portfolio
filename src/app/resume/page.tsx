@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Content from "./components/Content";
 
-export default function Home(){
+export default function Resume(){
     return (
         <section className="resume-section">
             <h2>My Resume:</h2>

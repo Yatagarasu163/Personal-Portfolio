@@ -219,18 +219,21 @@ footer{
   border-radius: 30px;
   box-shadow: 10px 10px 5px #20202050;
   display: flex;
+  align-items: flex-start;
   align-items: center;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 .project-description {
-  width: 60%;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.3);
   padding: 10px 20px;
   color: #000;
 }
 
-.project-image {
-  width: auto;
+.project-image a{
+  width: 20%;
   background-color: #e0e0e0;
   display: flex;
   align-items: center;
@@ -239,8 +242,9 @@ footer{
 }
 
 .project-image img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .project-description h2 {
@@ -249,6 +253,7 @@ footer{
 }
 
 .project-description h3 {
+  width: 60%;
   margin-bottom: 1rem;
   font-size: 1.3rem;
   font-weight: 500;
@@ -256,7 +261,7 @@ footer{
 }
 
 .project-description p {
-  white-space: pre;
+  white-space: pre-wrap;
   word-wrap: break-word;
   word-break: break-all;
   text-align: left;
@@ -325,4 +330,16 @@ transition: background-color 0.3s;
 
 .resume-download-button:hover{
   background-color: rgb(222, 222, 222);
+}
+
+/* Contact Me Page */
+.svg-img{
+  width: 2rem;
+  vertical-align: middle;
+  margin-bottom: 0.4em;
+}
+
+.contact-details{
+  font-size: 2rem;
+  vertical-align: middle;
 }

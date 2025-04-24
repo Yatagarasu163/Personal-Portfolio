@@ -4,7 +4,7 @@ export default function Header(){
     return (
         <div>
            <header className="navbar">
-                <div className="logo">Kay Faraday</div>
+                <div className="logo">Narish Kumar Dey</div>
                 <nav>
                 <ul className="nav-links">
                     <li><a href="/">Home</a></li>
