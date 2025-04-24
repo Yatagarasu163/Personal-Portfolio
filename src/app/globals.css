@@ -1,0 +1,328 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+/* Home Page */
+
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://www.transparenttextures.com/patterns/wood-pattern.png') repeat;
+  background-color: #fefefe;
+  color: #222;
+  line-height: 1.6;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Profile Picture Placeholder */
+.profile-pic {
+  margin: 2rem auto;
+  width: 140px;
+  height: 140px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Buttons */
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  padding: 0.75rem 1.25rem;
+  background-color: #f0b56c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #e59a3e;
+}
+
+footer{
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+/* About Page */
+
+.about-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.navbar {
+  background-color: #222;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  border-right: 1px solid #999;
+  padding-right: 2.2rem;
+}
+
+.nav-links li:last-child a {
+  border-right: none;
+}
+
+.about-section {
+  background-color: rgba(255, 255, 255, 0.595);
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.about-section h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.about-section h3 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #444;
+}
+
+.about-section p {
+  white-space: pre;
+  word-wrap: normal;
+  word-break: break-all ;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.about-card{
+  margin: 30px;
+  padding: 30px;
+  background-color: #fff4e4;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px #20202050;
+}
+
+/* Projects Page */
+.section-title {
+  text-align: center;
+}
+
+.project-section {
+  background-color: rgba(255, 255, 255, 0.595);
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.project-container {
+  margin: 30px;
+  padding: 30px;
+  background-color: #fff4e4;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px #20202050;
+  display: flex;
+  align-items: center;
+}
+
+.project-description {
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px 20px;
+  color: #000;
+}
+
+.project-image {
+  width: auto;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.project-description h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.project-description h3 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #444;
+}
+
+.project-description p {
+  white-space: pre;
+  word-wrap: break-word;
+  word-break: break-all;
+  text-align: left;
+  line-height: 1.6;
+}
+
+/* Resume iframe */
+
+.container {
+  width: 80%;
+  padding-top: 70%;
+  margin-top: 1.6em;
+  margin-bottom: 0.9em;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(63, 69, 81, 0.16);
+  will-change: transform;
+  display: flex;
+  justify-content: center;
+}
+
+.resumeContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.iframe {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+border: none;
+padding: 0;
+margin: 0;
+}
+
+.resume-section {
+  background-color: rgba(255, 255, 255, 0.595);
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.resume-description h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.resume-section a{
+display: flex;
+justify-content: center;
+}
+
+.resume-download-button{
+width: 30rem;
+padding: 2rem;
+margin: 2rem;
+text-align: center;
+background-color: white;
+border-radius: 30px;
+box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+transition: background-color 0.3s;
+}
+
+.resume-download-button:hover{
+  background-color: rgb(222, 222, 222);
+}
