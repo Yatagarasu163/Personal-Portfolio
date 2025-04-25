@@ -36,17 +36,15 @@ export default function Home(){
     ]
 
     return (
-        <div>
-            
-        <main className="about-section">
-            <h2>Contact Me:</h2>
-            <div className="contact-info">
-                {platforms.map((item, index) => {
-                    return <Contact key={index} svg={item.svg} link={item.link} platform={item.platform} name={item.name}/>
-                })}
-            </div> 
-        </main>
-
+        <div className="content-wrapper">       
+            <main className="about-section">
+                <h2>Contact Me:</h2>
+                <div className="contact-info">
+                    {platforms.map((item, index) => {
+                        return <Contact key={index} svg={item.svg} link={item.link} platform={item.platform} name={item.name}/>
+                    })}
+                </div> 
+            </main>
         </div>
     )
 }

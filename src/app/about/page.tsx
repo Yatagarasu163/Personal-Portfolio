@@ -1,4 +1,3 @@
-import Header from "../components/Header";
 import Content from "./components/Content";
 
 export default function About(){
@@ -55,7 +54,7 @@ Some of the online coding courses I have participated in are:
     `;
 
     return (
-        <div>
+        <div className="content-wrapper">
             <section className="about-section">
                 <h2>About Me:</h2>
                 <Content title="My Background:" description={myBackground} />

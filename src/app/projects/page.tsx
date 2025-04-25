@@ -111,7 +111,7 @@ After thorough testing, we decided that the neural network model has the best ac
 ];
 
     return (
-        <div>
+        <div className="content-wrapper">
             <section className="project-section">
                 <h2 className="section-title">Projects:</h2>
                 {projects.map((item, index) => {
