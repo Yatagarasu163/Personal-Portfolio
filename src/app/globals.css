@@ -251,11 +251,14 @@ footer{
     color: white;
     text-decoration: none;
     font-weight: 500;
-    border-right: none;
+    border-right: 0rem;
     border-bottom: 1px solid #999;
-    padding-right: none;
+    padding-right: 0rem;
     padding-bottom: 1.5rem;
-    border-width: 100%;
+    border-left-width: 0rem;
+    border-right-width: 0rem;
+    border-bottom-width: 100%;
+    border-top-width: 0rem;
     text-align: center;
   }
 
