@@ -104,8 +104,8 @@ body {
 /* Profile Picture Placeholder */
 .profile-pic {
   margin: 2rem auto;
-  width: 140px;
-  height: 140px;
+  width: 15rem;
+  height: 15rem;
   background-color: #ccc;
   border-radius: 50%;
   display: flex;
@@ -113,6 +113,11 @@ body {
   justify-content: center;
   font-weight: 500;
   color: #555;
+  overflow: hidden;
+}
+
+.profile-pic img{
+  width: 125%;
 }
 
 /* Buttons */

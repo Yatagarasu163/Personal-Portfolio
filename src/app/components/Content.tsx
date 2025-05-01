@@ -3,7 +3,7 @@ export default function Content(){
         <main className="main-content">
         <section className="intro">
           <h1>Narish Kumar Dey</h1>
-          <div className="profile-pic">Insert Pic Here</div>
+          <div className="profile-pic"><img src="/images/Portrait.jpg"></img></div>
           <p>
             Hi, I'm a developer passionate about learning new things every day with foundational knowledge in Data Science, Networking and Web Development.
           </p>
